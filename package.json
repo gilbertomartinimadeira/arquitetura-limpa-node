@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "main": "tsc && node ./src/main.js"
+    "main": "tsc && node ./src/main.js",
+   "test": "tsc && jest ./dist/test"
+
   },
   "author": "gilberto",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^27.0.2",
-    "jest": "^27.2.2"
+    "jest": "^27.2.4"
   }
 }
